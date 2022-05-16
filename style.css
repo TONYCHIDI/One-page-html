@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(248, 244, 244);
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 7rem;
+    margin-left: 50px;
+}
+
+h3 {
+    font-size: 7rem;
+    color: brown;
+}
+
+.header {
+    background-color: brown;
+}
+
+.header img {
+    width: 200px;
+    margin: auto 100px;
+}
+
+.header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.header .nav-bar p {
+    font-size: 6rem;
+    font-weight: 800;
+    color: aliceblue;
+    margin: auto;
+}
+
+.welcome-note {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 400px 200px;
+}
+
+.welcome-note .welc-texts p {
+    color: rgb(73, 73, 78);
+    font-size: 4rem;
+}
+
+.welcome-note .welc-img img {
+    width: 80rem;
+    height: 60rem;
+    border-radius: 40px;
+}
+
+.objectives {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 400px 200px;
+}
+
+.objectives .objective-text p {
+    color: rgb(73, 73, 78);
+    font-size: 4rem;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.trainers-img {
+width: 80%;
+}
+
+.objectives .trainers-img img {
+    width: 30rem;
+}
+
+.footer {
+    display: flex;
+    background-color: brown;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 2.5rem;
+    padding: 10px auto;
+    color: aliceblue;
+}
